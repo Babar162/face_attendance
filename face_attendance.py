@@ -2,6 +2,8 @@ import cv2
 import face_recognition
 import os
 from datetime import datetime
+import numpy as np
+
 
 # Load known faces
 known_encodings = []
